@@ -1,6 +1,10 @@
 import Vue from 'vue'
-import { Button } from 'view-design'
+import {
+  Input,
+  Button
+} from 'view-design'
 
-Vue.component('Button', Button)
+Vue.component('i-input', Input)
+Vue.component('i-button', Button)
 
 import 'view-design/dist/styles/iview.css'
